@@ -61,7 +61,7 @@ let wid = 100;
 let score = 0;
 
 function refresh(){
-  location.reload();
+  window.history.back();
 }
 let rand = Math.floor( Math.random()*arr.length );
 let ques = document.querySelector('.question');
